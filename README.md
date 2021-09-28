@@ -23,12 +23,9 @@
 # 앱 구조  
 ![메인 화면](https://user-images.githubusercontent.com/59948918/135031013-a8f2f8fd-d020-4da1-85e8-749898145958.PNG)
 4가지 버튼으로 구성됨(공지 확인, 안심콜, 동선 등록, 자가 진단)  
-| 공지확인  | 동선 등록  | 안심콜  |   | 자가 진단  |
-|---|---|---|---|---|
-| ![공지확인](https://user-images.githubusercontent.com/59948918/135031222-626b863f-a2f0-4b4e-bd5b-f92250b09bd0.PNG)
-  |   | ![동선 등록](https://user-images.githubusercontent.com/59948918/135031241-e37cd61f-3751-4414-81d7-15bebdef905f.PNG)
-  |   | ![안심콜](https://user-images.githubusercontent.com/59948918/135031284-6e674607-cb63-45e3-af73-c0facf37c502.PNG)
-  |
-| ![자가진단](https://user-images.githubusercontent.com/59948918/135031292-328b0932-47be-4ace-921b-3be2987e7a35.PNG)
-  |  
-
+***
+# 역할 분담
+김지안 : 동선등록 구현  
+박재현 : 안심콜 구현 및 보고서 작성  
+최진혁 : URL 구현 및 발표  
+한창현 : 자가진단 구현  

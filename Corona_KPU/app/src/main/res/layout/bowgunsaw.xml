@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >      <!--위는 Scroll View 전체 Linear Layout-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="돌아가기"
+                android:id="@+id/btnGetBacktoRadio"
+                ></Button>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#D3D3D3"
+            android:id="@+id/linShi"
+
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgView1"
+                android:src="@drawable/shihwa"
+                android:layout_margin="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="시화 병원"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtTelshihwa"
+                    android:text="1811-7000"
+                    android:textSize="25dp"
+                    android:textColor="#0000FF"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtFindshihwa"
+                    android:textSize="20dp"
+                    android:text="위치보기"
+                    android:layout_margin="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--위는 첫번째 스크롤-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#D3D3D3"
+            android:id="@+id/linjun"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgView2"
+                android:src="@drawable/junwan"
+                android:layout_margin="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="시흥시 보건소"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtTelsiheung"
+                    android:text="031-310-5815"
+                    android:textSize="25dp"
+                    android:textColor="#0000FF"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtFindsiheung"
+                    android:textSize="20dp"
+                    android:text="위치보기"
+                    android:layout_margin="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--두번째 스크롤레이아웃-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#D3D3D3"
+            android:id="@+id/linbogun"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgView3"
+                android:src="@drawable/shihung"
+                android:layout_margin="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="정왕 보건지소"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtTeljungwang"
+                    android:text="031-310-5901"
+                    android:textSize="25dp"
+                    android:textColor="#0000FF"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtFindjungwang"
+                    android:textSize="20dp"
+                    android:text="위치보기"
+                    android:layout_margin="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--3번째 스크롤레이아웃-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#D3D3D3"
+            android:id="@+id/lincentral"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgView4"
+                android:src="@drawable/junwan"
+                android:layout_margin="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="석경의료재단 센트럴 병원"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtTelcentral"
+                    android:text="1588-9339"
+                    android:textSize="25dp"
+                    android:textColor="#0000FF"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtFindcentral"
+                    android:textSize="20dp"
+                    android:text="위치보기"
+                    android:layout_margin="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--4번째 스크롤레이아웃-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#D3D3D3"
+            android:id="@+id/linshin"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgView5"
+                android:src="@drawable/shinchun"
+                android:layout_margin="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="신천 연합 병원"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtTelsinchun"
+                    android:text="031-310-6300"
+                    android:textSize="25dp"
+                    android:textColor="#0000FF"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtFindsinchun"
+                    android:textSize="20dp"
+                    android:text="위치보기"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--5번째 스크롤레이아웃-->
+
+        <!--스크롤뷰 레이아웃 닫음-->
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="돌아가기"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자가 진단 테스트"
+        android:textSize="25dp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:text="공통적 증상"
+        android:textSize="20dp"></TextView>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="발열"
+        android:id="@+id/dis1_1"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="마른기침"
+        android:id="@+id/dis1_2"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="피로감"
+        android:id="@+id/dis1_3"
+        ></CheckBox>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:text="드문 증상"
+        android:textSize="20dp"></TextView>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="몸살"
+        android:id="@+id/dis2_1"
+        ></CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="인후통"
+        android:id="@+id/dis2_2"
+        ></CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설사"
+        android:id="@+id/dis2_3"
+        ></CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="미각/후각 상실"
+        android:id="@+id/dis2_4"
+        ></CheckBox>
+
+
+    <Button
+        android:id="@+id/btnGetMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="진단 시작" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여기에 텍스트"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/resultTxt"
+        android:visibility="invisible"
+        ></TextView>
+    <!-- 여기에 점수가 4점 미만 = 경과를 지켜봅시다
+    4점 이상 = 코로나가 의심됩니다-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주변 보건소 찾기"
+        android:id="@+id/findHos"
+        android:visibility="invisible"
+        ></Button>
+    </LinearLayout>
+
+</ScrollView>

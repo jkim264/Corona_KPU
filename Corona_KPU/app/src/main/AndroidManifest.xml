@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.kpu.ce2018152010.corona_kpu">
+
+    <application
+        android:allowBackup="true"
+        android:label="KPU 코로나 알리미"
+        android:icon="@drawable/playstore_icon"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Corona_KPU">
+        <activity android:name=".MainActivity" android:label="CORONA_KPU">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterRoute" android:label="CORONA_KPU" />
+        <activity android:name=".radioActivity" android:label="자가진단 해보기"/>
+        <activity android:name=".mapActivity" android:label="주위 보건소 위치찾기"/>
+        <activity android:name=".AnsimCall" android:label="AnsimCall"/>
+    </application>
+
+</manifest>
